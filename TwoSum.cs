@@ -2,6 +2,10 @@
 {
     public static class TwoSum
     {
+       /// <summary>
+       /// LeetCode #1: Two Sum
+       /// Complexity: Time O(n), Space O(n)
+       /// </summary>
         public static int[] TwoSumFunc(int[] nums, int target)
         {
             Dictionary<int, int> map = new Dictionary<int, int>();
